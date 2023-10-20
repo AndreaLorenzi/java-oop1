@@ -72,7 +72,7 @@ public class Prodotto {
         this.iva = iva;
     }
 
-    public int generaRandomCodice() {
+    private int generaRandomCodice() {
         Random random = new Random();
         return random.nextInt(100000000);
 
